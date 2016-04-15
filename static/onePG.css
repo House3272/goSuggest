@@ -1,0 +1,166 @@
+/*CZ*/
+@import url(https://fonts.googleapis.com/css?family=Khula:700,600&subset=latin-ext);
+html, body {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	background: none;
+	font-family: Verdana, sans-serif;
+	color: #333;
+	background-color: rgb(252, 250, 248);
+}
+html, body, #container, h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+#container {
+	display: flex;
+	flex-flow: column;
+	flex-grow: 1;
+	flex-shrink: 1;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+	box-sizing: content-box;
+	text-align: center;
+}
+
+
+.spacerTop {
+	height: 127px;
+}
+.spacerButt {
+	margin-top: auto;
+}
+
+
+#headingBlock {
+	margin-bottom: 2em;
+}
+#headingBlock h4 {
+	padding: 0.3em 0.1em;
+	color: #555;
+}
+
+
+#meatBlock {
+	display: block;
+	align-self: center;
+	white-space: nowrap;
+	margin: 0;
+	padding: 0;
+	width: 84%;
+}
+
+#searchBox {
+	border: 1px solid #666;
+	border-radius: 4px 4px 0 0;
+	border-radius: 4px;
+}
+#searchForm {
+	margin: 0;
+	padding: 0 0.1em 0 1em;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	align-self: center;
+	text-align: center;
+}
+#searchInput {
+	display: inline-block;
+	background: none;
+	border: none;
+	box-shadow: none;
+	box-sizing: border-box;
+	outline: none;
+	width: 99%;
+	margin: 0;
+	padding: 0.5em 0.1em 0.5em 0.4em;
+	text-align: left;
+	font-size: 24px;
+	font-weight: 500;
+	color: rgb(96, 120, 128);
+	font-family: Verdana, sans-serif;
+	-webkit-appearance: none !important;
+}
+
+#suggestBox {
+	display: none;
+	flex: 3;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	border: 1px solid #666;
+	border-radius: 0 0 4px 4px;
+}
+.suggestionOuter {
+	border-top: 1px solid #777;
+	padding: 0.2em 0.3em 0.2em 0.5em;
+	text-align: left;
+	-webkit-appearance: none !important;
+}
+.suggestionOuter:hover {
+	background-color: rgba(230, 232, 230, 0.9);
+}
+.suggestionInner {
+	padding: 0.2em 0.1em 0.2em 1em;
+	font-size: 18px;
+	font-weight: 500;
+	color: rgb(152, 144, 128);
+	font-family: Verdana, sans-serif;
+}
+.suggestionInner:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#suggestion0 .suggestionInner {
+	color: rgb(192, 128, 136);
+}
+#suggestion0 .suggestionInner:hover {
+	cursor: auto;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+#github {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+	display: block;
+	box-sizing: content-box;
+	height: 48px;
+	width: auto;
+	text-align: center;
+	background-color: rgba(236,232,224,0.92);
+}
+#github > div {
+	display: block;
+	box-sizing: content-box;
+	border: none;
+	padding: 0 12px 0 13px;
+}
+#github > div > a {
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 48px;
+	color: rgb(96,72,56);
+	outline: none;
+	text-decoration: none;
+}
+#github > div > a:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}

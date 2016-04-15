@@ -3,9 +3,18 @@
 *.a
 *.so
 
+# Old Versions of Files
+*.old
+*.old*
+_old
+
 # Folders
 _obj
 _test
+_list
+_title
+list
+title
 
 # Architecture specific extensions/prefixes
 *.[568vq]
