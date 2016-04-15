@@ -1,2 +1,1 @@
-# 4.goSuggestion
-Ajax Suggestion service via GO
+# Ajax Suggestion service via GO
